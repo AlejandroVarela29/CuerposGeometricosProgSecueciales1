@@ -22,7 +22,7 @@ public class App {
         System.out.println("Cual es el valor de la arista");
         aristas=dodecaedro.nextDouble();
 
-        volumen = (1 / 4) * (15 + 7 * Math.sqrt(5)) * Math.pow(aristas, 3);
+        volumen = 0.25 * (15 + 7 * Math.sqrt(5)) * Math.pow(aristas, 3);
 
         System.out.println("El volumen de un dodecaedro es " + volumen);
 
