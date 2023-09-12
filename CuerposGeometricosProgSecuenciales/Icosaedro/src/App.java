@@ -23,7 +23,7 @@ public class App{
         System.out.println("Cual es el valor de la arista");
         aristas=icoseadro.nextDouble();
 
-        volumen = (5 / 12) * (3 + Math.sqrt(5)) * Math.pow(aristas, 3 );
+        volumen = 0.4166 * (3 + Math.sqrt(5)) * Math.pow(aristas, 3 );
 
         System.out.println("El volumen de un icoseadro es " + volumen);
 
