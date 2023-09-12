@@ -57,7 +57,7 @@ public class App{
         System.out.println("Cual es la altura");
         altura=troncopiramide.nextDouble();
 
-        volumenTroncoPiramide = (1/3) * altura * (aBaseMayor + aBaseMenor + Math.sqrt(aBaseMayor * aBaseMenor));
+        volumenTroncoPiramide = 0.33 * altura * (aBaseMayor + aBaseMenor + Math.sqrt(aBaseMayor * aBaseMenor));
 
         System.out.println("El volumen del tronco de la piramide es " + volumenTroncoPiramide);
 
