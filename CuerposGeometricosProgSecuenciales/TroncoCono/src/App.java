@@ -51,7 +51,7 @@ public class App{
         System.out.println("Cual es el radio  mayor");
         radioMayor=troncocono.nextDouble();
 
-        VolumenTroncoCono = ((1/3) * (Math.PI * altura) * (Math.pow(radioMayor, 2) + Math.pow(radioMenor, 2) +radioMayor * radioMenor));
+        VolumenTroncoCono = (0.33 * (Math.PI * altura) * (Math.pow(radioMayor, 2) + Math.pow(radioMenor, 2) +radioMayor * radioMenor));
         
         System.out.println("El volumen del tronco del cono es " + VolumenTroncoCono);
 
